@@ -1539,6 +1539,8 @@
 		93F430DC171589AD0094A8DC /* ProfilePhotoPlaceholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93F430DA171589AD0094A8DC /* ProfilePhotoPlaceholder@2x.png */; };
 		93F5D960162A36CC00E38E48 /* TGSendInvitesActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F5D95F162A36CC00E38E48 /* TGSendInvitesActor.m */; };
 		93F6940616932F8700691086 /* TGBlockListRequestActor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 93F6940516932F8700691086 /* TGBlockListRequestActor.mm */; };
+		A0ED05502053A7DA00873CFC /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = A0ED054F2053A7DA00873CFC /* config.h */; };
+		A0ED05512053A7DA00873CFC /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = A0ED054F2053A7DA00873CFC /* config.h */; };
 		D00040A515BCD2EA00AF9EBF /* TGMessage+Telegraph.m in Sources */ = {isa = PBXBuildFile; fileRef = D00040A415BCD2EA00AF9EBF /* TGMessage+Telegraph.m */; };
 		D00040AC15BCD53900AF9EBF /* TGImageInfo+Telegraph.mm in Sources */ = {isa = PBXBuildFile; fileRef = D00040AB15BCD53900AF9EBF /* TGImageInfo+Telegraph.mm */; };
 		D00040B815BCD73A00AF9EBF /* TGUser+Telegraph.m in Sources */ = {isa = PBXBuildFile; fileRef = D00040B715BCD73900AF9EBF /* TGUser+Telegraph.m */; };
@@ -7558,6 +7560,7 @@
 		93F5D95F162A36CC00E38E48 /* TGSendInvitesActor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGSendInvitesActor.m; sourceTree = "<group>"; };
 		93F6940416932F8700691086 /* TGBlockListRequestActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGBlockListRequestActor.h; sourceTree = "<group>"; };
 		93F6940516932F8700691086 /* TGBlockListRequestActor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TGBlockListRequestActor.mm; sourceTree = "<group>"; };
+		A0ED054F2053A7DA00873CFC /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		D00040A315BCD2EA00AF9EBF /* TGMessage+Telegraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TGMessage+Telegraph.h"; sourceTree = "<group>"; };
 		D00040A415BCD2EA00AF9EBF /* TGMessage+Telegraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TGMessage+Telegraph.m"; sourceTree = "<group>"; };
 		D00040AA15BCD53900AF9EBF /* TGImageInfo+Telegraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TGImageInfo+Telegraph.h"; sourceTree = "<group>"; };
@@ -19515,6 +19518,7 @@
 		D08805A1156E8F3600311537 = {
 			isa = PBXGroup;
 			children = (
+				A0ED054F2053A7DA00873CFC /* config.h */,
 				D0B9B19419CA324D0020C9CF /* LaunchScreen.xib */,
 				D0DAA484197496240036E709 /* Icon-76.png */,
 				D0C6748E1CB8640400183765 /* Icon-167.png */,
@@ -23870,6 +23874,7 @@
 				D0115F321F41F1300039383E /* TLRPCauth_recoverPassword.h in Headers */,
 				D0A4D7C71C10B03200537E74 /* TGVTAcceleratedVideoView.h in Headers */,
 				68EE347F1C922CC8002F5419 /* TGOpenInBrowserItems.h in Headers */,
+				A0ED05502053A7DA00873CFC /* config.h in Headers */,
 				D01160801F41F1320039383E /* TLRPCphone_discardCall.h in Headers */,
 				D0DB05BE1BC7B5DE00AB1AD1 /* TGShareSheetSharePeersCaptionView.h in Headers */,
 				D0C80D321A9561AF00D5DF8A /* TGPasscodeSettingsController.h in Headers */,
@@ -24281,6 +24286,7 @@
 				D020FB5D1D996D5200F279AA /* TGShareMtSerialization.h in Headers */,
 				D020FBDD1D9973AF00F279AA /* TGRoundImage.h in Headers */,
 				D020FBCD1D9972D300F279AA /* TGUploadedMessageContentText.h in Headers */,
+				A0ED05512053A7DA00873CFC /* config.h in Headers */,
 				D020FB641D996D5200F279AA /* PSKeyValueWriter.h in Headers */,
 				D020FB881D9970FE00F279AA /* TGUserModel.h in Headers */,
 				D020FB771D996E0700F279AA /* lmdb.h in Headers */,
