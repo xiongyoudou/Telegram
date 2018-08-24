@@ -209,13 +209,6 @@
 			remoteGlobalIDString = D02601D71A55CA2300716290;
 			remoteInfo = Share;
 		};
-		692AB9141E675E8800706ACC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 692AB9071E675E8800706ACC /* Telegraph.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 68744C0D1BB1A9F700FE6542;
-			remoteInfo = watchkitapp;
-		};
 		692AB9161E675E8800706ACC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 692AB9071E675E8800706ACC /* Telegraph.xcodeproj */;
@@ -555,7 +548,6 @@
 			children = (
 				692AB9111E675E8800706ACC /* Telegram.app */,
 				692AB9131E675E8800706ACC /* Share.appex */,
-				692AB9151E675E8800706ACC /* watchkitapp.app */,
 				692AB9171E675E8800706ACC /* watchkitapp Extension.appex */,
 				692AB9191E675E8800706ACC /* SiriIntents.appex */,
 				692AB91B1E675E8800706ACC /* LegacyDatabase.framework */,
@@ -990,6 +982,7 @@
 				TargetAttributes = {
 					69F842351E67540700C110F7 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KFW6K36Y76;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -1030,13 +1023,6 @@
 			fileType = "wrapper.app-extension";
 			path = Share.appex;
 			remoteRef = 692AB9121E675E8800706ACC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		692AB9151E675E8800706ACC /* watchkitapp.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = watchkitapp.app;
-			remoteRef = 692AB9141E675E8800706ACC /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		692AB9171E675E8800706ACC /* watchkitapp Extension.appex */ = {
@@ -1291,8 +1277,9 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = KFW6K36Y76;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1315,7 +1302,7 @@
 					"-DWEBRTC_POSIX",
 					"-DTGVOIP_HAVE_TGLOG",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.grishka.libtgvoip;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoquzhushou.bbbbbb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -1328,6 +1315,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = KFW6K36Y76;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1350,7 +1338,7 @@
 					"-DWEBRTC_POSIX",
 					"-DTGVOIP_HAVE_TGLOG",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.grishka.libtgvoip;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoquzhushou.bbbbbb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -1414,6 +1402,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = KFW6K36Y76;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1436,7 +1425,7 @@
 					"-DWEBRTC_POSIX",
 					"-DTGVOIP_HAVE_TGLOG",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.grishka.libtgvoip;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoquzhushou.bbbbbb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -1494,6 +1483,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = KFW6K36Y76;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1516,7 +1506,7 @@
 					"-DWEBRTC_POSIX",
 					"-DTGVOIP_HAVE_TGLOG",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.grishka.libtgvoip;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoquzhushou.bbbbbb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
